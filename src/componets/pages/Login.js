@@ -45,6 +45,7 @@ const Login = () => {
       .then(response => {
           if(!response.ok){
             setErrMsg('Incorrect username or password, please try again.')
+            console.log(errMsg)
           } 
           return response.json()
         })

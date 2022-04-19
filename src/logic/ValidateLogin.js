@@ -43,7 +43,7 @@ const ValidateLogin = () => {
   }
 
   useEffect(()=>{  
-  validateToken()
+    validateToken()
   }, [])
 
   return (
