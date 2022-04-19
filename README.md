@@ -42,7 +42,7 @@ The API is the default WordPress REST API provided with WordPress. The relevant 
 
 * `GET https://js1.10up.com/wp-json/wp/v2/posts` - Get blog posts
 * `GET https://js1.10up.com/wp-json/wp/v2/pages` - Get pages (about)
-* `POST https://js1.10up.com/wp-json/jwt-auth/v1/token` - Receive a token based on a username and password. Valid username is `jane` and password is `12345`. JSON body should look like this:
+* `POST https://js1.10up.com/wp-json/jwt-auth/v1/token` - Receive a token based on a username and password. 
   ```
   {
     "username": "USERNAME",
