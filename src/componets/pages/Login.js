@@ -45,7 +45,6 @@ const Login = () => {
       .then(response => {
           if(!response.ok){
             setErrMsg('Incorrect username or password, please try again.')
-            console.log(errMsg)
           } 
           return response.json()
         })
@@ -53,7 +52,9 @@ const Login = () => {
           const token = result?.token
           setAuth({...formData, token})
           setTokenIsValid(true)
-          navigate(from, {replace: true})
+          if(token){
+            navigate(from, {replace: true})
+          }
 
         })
       .catch(error => {
