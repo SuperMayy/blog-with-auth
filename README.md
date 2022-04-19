@@ -26,7 +26,7 @@ To build application:
 
 Blog with auth a maintainable React application using modern JavaScript and framework(s). The application is a blog pulling content from the API listed below based on some simple HTML/CSS markup; there is also basic login/logout functionality. 
 
-It follows React best practices, uses modern JavaScript features (ES6-8), utilize build processes, implements a routing strategy (react-router-don v6), and handle state management (Context API), handles the authentication flow (login and logout), store tokens, and handle expired tokens.
+It follows React best practices, uses modern JavaScript features (ES6-8), utilize build processes, implements a routing strategy (react-router-don v6), and handle state management (Context API), handles the authentication flow (login and logout), store tokens (via Context API), and handle expired tokens.
 
 ## Requirements
 
